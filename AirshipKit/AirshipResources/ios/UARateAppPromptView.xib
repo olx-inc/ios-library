@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -32,29 +31,29 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view opaque="NO" alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H23-Ry-0qo" userLabel="Shadow View">
-                    <rect key="frame" x="0.0" y="0.66666666666668561" width="414" height="736"/>
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DLp-7v-4z8" userLabel="Prompt Container View">
-                    <rect key="frame" x="57" y="239.33333333333337" width="300" height="259"/>
+                    <rect key="frame" x="57" y="238" width="300" height="260"/>
                     <subviews>
                         <view opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="748" translatesAutoresizingMaskIntoConstraints="NO" id="LRL-AL-VLQ" userLabel="Container Top Spacer View">
                             <rect key="frame" x="0.0" y="0.0" width="300" height="15"/>
                         </view>
                         <view opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="748" translatesAutoresizingMaskIntoConstraints="NO" id="fDS-Jz-ClU">
-                            <rect key="frame" x="0.0" y="94.999999999999972" width="300" height="15"/>
+                            <rect key="frame" x="0.0" y="95" width="300" height="15"/>
                         </view>
                         <view opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="748" translatesAutoresizingMaskIntoConstraints="NO" id="B9I-NM-MSh" userLabel="Buttons Top Spacer View">
-                            <rect key="frame" x="0.0" y="188.99999999999997" width="300" height="15"/>
+                            <rect key="frame" x="0.0" y="190" width="300" height="15"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="9aQ-1A-iCO"/>
                             </constraints>
                         </view>
                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Eg-3t-wYz">
-                            <rect key="frame" x="0.0" y="0.0" width="300" height="259"/>
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="260"/>
                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="center" id="1hp-La-1Av">
-                                <rect key="frame" x="0.0" y="0.0" width="300" height="259"/>
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="260"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -66,7 +65,7 @@
                             </userDefinedRuntimeAttributes>
                         </visualEffectView>
                         <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pwt-et-CC3">
-                            <rect key="frame" x="0.0" y="204.99999999999997" width="149" height="54.000000000000028"/>
+                            <rect key="frame" x="0.0" y="206" width="149.66666666666666" height="54"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="d7U-sJ-sDd"/>
                             </constraints>
@@ -79,7 +78,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd3-Dx-TSN">
-                            <rect key="frame" x="150" y="204.99999999999997" width="150" height="54.000000000000028"/>
+                            <rect key="frame" x="150.66666666666663" y="206" width="149.33333333333337" height="54"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                             <state key="normal" title="Rate"/>
                             <connections>
@@ -87,13 +86,13 @@
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="999" text="Enjoying This App? " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNv-GP-MLR">
-                            <rect key="frame" x="30.666666666666686" y="109.99999999999997" width="240" height="35.666666666666686"/>
+                            <rect key="frame" x="30" y="110.00000000000001" width="240" height="36.666666666666671"/>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                             <nil key="textColor"/>
                             <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZj-Kc-fUe">
-                            <rect key="frame" x="30" y="150.66666666666666" width="240" height="39"/>
+                            <rect key="frame" x="30" y="151.66666666666669" width="240" height="38.333333333333343"/>
                             <string key="text">Tap Rate to rate it on the 
 App Store.</string>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -101,21 +100,21 @@ App Store.</string>
                             <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                         </label>
                         <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AKo-m7-CuB" userLabel="App Icon">
-                            <rect key="frame" x="110" y="15" width="80" height="79.999999999999972"/>
+                            <rect key="frame" x="110" y="15" width="80" height="80"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="80" id="7aS-KI-7q1"/>
                                 <constraint firstAttribute="height" constant="80" id="f14-cm-OBs"/>
                             </constraints>
                         </imageView>
                         <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JdH-1O-cUV" userLabel="Vertical Line View">
-                            <rect key="frame" x="149" y="204.99999999999997" width="1" height="54.000000000000028"/>
+                            <rect key="frame" x="149.66666666666666" y="206" width="1" height="54"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="1" id="Iat-OB-vEC"/>
                             </constraints>
                         </view>
                         <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7AZ-aQ-582" userLabel="Horizontal Line View">
-                            <rect key="frame" x="0.0" y="203.99999999999997" width="300" height="1"/>
+                            <rect key="frame" x="0.0" y="205" width="300" height="1"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="nv4-Ko-rim"/>
